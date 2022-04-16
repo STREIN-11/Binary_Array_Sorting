@@ -1,14 +1,7 @@
 // { Driver Code Starts
-//Initial template for C++
-
 #include <bits/stdc++.h> 
 using namespace std;
-
  // } Driver Code Ends
-//User function template for C++
-
-// binArray is an array that consists only 0s and 1s
-// return sorted binary array 
 class Solution{
     public:
     vector<int> SortBinaryArray(vector<int> binArray)
