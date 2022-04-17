@@ -23,12 +23,10 @@ class Solution{
        return binArray;
     }
 };
-
 // { Driver Code Starts.
 int main() {
 	int t;
-	cin>>t;
-	
+	cin>>t;	
 	while(t--)
 	{
 	    int n;
@@ -41,9 +39,8 @@ int main() {
 	  	vector<int> result = ob.SortBinaryArray(binArray);
 	  	for(int i=0; i<n; i++)
 	  	    cout<<result[i]<<" ";
-	      
 	    cout<<endl;
 	}
 	return 0;
 }
-  // } Driver Code Ends
+// } Driver Code Ends
